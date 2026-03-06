@@ -1,0 +1,2668 @@
+{
+  "winrate": 36.1,
+  "roi": 1.9,
+  "total": 380,
+  "won": 137,
+  "results": [
+    {
+      "date": "2025-03-07",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "7.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-03-08",
+      "correct": true,
+      "pred": "11.44",
+      "actual": "11.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-03-08",
+      "correct": false,
+      "pred": "13.77",
+      "actual": "9.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-03-08",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "8.0",
+      "odds": 1.57
+    },
+    {
+      "date": "2025-03-08",
+      "correct": true,
+      "pred": "12.24",
+      "actual": "14.0",
+      "odds": 1.14
+    },
+    {
+      "date": "2025-03-09",
+      "correct": false,
+      "pred": "14.05",
+      "actual": "7.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-03-09",
+      "correct": true,
+      "pred": "9.5",
+      "actual": "10.0",
+      "odds": 3.9
+    },
+    {
+      "date": "2025-03-09",
+      "correct": false,
+      "pred": "14.63",
+      "actual": "4.0",
+      "odds": 5.25
+    },
+    {
+      "date": "2025-03-09",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "8.0",
+      "odds": 1.55
+    },
+    {
+      "date": "2025-03-10",
+      "correct": false,
+      "pred": "8.77",
+      "actual": "13.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-03-14",
+      "correct": false,
+      "pred": "11.41",
+      "actual": "6.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-03-15",
+      "correct": false,
+      "pred": "11.18",
+      "actual": "9.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2025-03-15",
+      "correct": false,
+      "pred": "11.94",
+      "actual": "3.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-03-15",
+      "correct": false,
+      "pred": "11.54",
+      "actual": "5.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2025-03-15",
+      "correct": true,
+      "pred": "12.11",
+      "actual": "10.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2025-03-16",
+      "correct": false,
+      "pred": "11.99",
+      "actual": "8.0",
+      "odds": 2.55
+    },
+    {
+      "date": "2025-03-16",
+      "correct": true,
+      "pred": "11.64",
+      "actual": "11.0",
+      "odds": 1.55
+    },
+    {
+      "date": "2025-03-16",
+      "correct": false,
+      "pred": "11.78",
+      "actual": "7.0",
+      "odds": 3.4
+    },
+    {
+      "date": "2025-03-16",
+      "correct": true,
+      "pred": "10.52",
+      "actual": "11.0",
+      "odds": 5.75
+    },
+    {
+      "date": "2025-03-16",
+      "correct": false,
+      "pred": "11.77",
+      "actual": "8.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-03-29",
+      "correct": true,
+      "pred": "9.71",
+      "actual": "12.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-03-29",
+      "correct": false,
+      "pred": "11.76",
+      "actual": "7.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-03-29",
+      "correct": false,
+      "pred": "11.16",
+      "actual": "5.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2025-03-29",
+      "correct": false,
+      "pred": "12.74",
+      "actual": "5.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-03-30",
+      "correct": true,
+      "pred": "11.85",
+      "actual": "10.0",
+      "odds": 1.67
+    },
+    {
+      "date": "2025-03-30",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "6.0",
+      "odds": 3.75
+    },
+    {
+      "date": "2025-03-30",
+      "correct": false,
+      "pred": "13.58",
+      "actual": "6.0",
+      "odds": 1.4
+    },
+    {
+      "date": "2025-03-30",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "8.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2025-03-31",
+      "correct": true,
+      "pred": "14.28",
+      "actual": "10.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-03-31",
+      "correct": false,
+      "pred": "10.27",
+      "actual": "8.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2025-04-04",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "3.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-04-05",
+      "correct": true,
+      "pred": "11.57",
+      "actual": "11.0",
+      "odds": 1.9
+    },
+    {
+      "date": "2025-04-05",
+      "correct": false,
+      "pred": "13.46",
+      "actual": "6.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2025-04-05",
+      "correct": false,
+      "pred": "14.37",
+      "actual": "4.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-04-06",
+      "correct": false,
+      "pred": "8.13",
+      "actual": "11.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-04-06",
+      "correct": false,
+      "pred": "10.5",
+      "actual": "5.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-04-06",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "6.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2025-04-06",
+      "correct": true,
+      "pred": "10.22",
+      "actual": "15.0",
+      "odds": 1.7
+    },
+    {
+      "date": "2025-04-06",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "8.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-04-07",
+      "correct": true,
+      "pred": "9.95",
+      "actual": "11.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2025-04-11",
+      "correct": true,
+      "pred": "12.93",
+      "actual": "12.0",
+      "odds": 4.0
+    },
+    {
+      "date": "2025-04-12",
+      "correct": true,
+      "pred": "13.49",
+      "actual": "13.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2025-04-12",
+      "correct": true,
+      "pred": "12.81",
+      "actual": "11.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2025-04-12",
+      "correct": false,
+      "pred": "12.08",
+      "actual": "7.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-04-13",
+      "correct": true,
+      "pred": "9.84",
+      "actual": "15.0",
+      "odds": 2.8
+    },
+    {
+      "date": "2025-04-13",
+      "correct": false,
+      "pred": "11.07",
+      "actual": "8.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-04-13",
+      "correct": true,
+      "pred": "10.92",
+      "actual": "11.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2025-04-13",
+      "correct": false,
+      "pred": "11.16",
+      "actual": "4.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-04-13",
+      "correct": false,
+      "pred": "12.38",
+      "actual": "9.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-04-14",
+      "correct": true,
+      "pred": "11.86",
+      "actual": "10.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2025-04-19",
+      "correct": false,
+      "pred": "8.71",
+      "actual": "13.0",
+      "odds": 13.0
+    },
+    {
+      "date": "2025-04-19",
+      "correct": true,
+      "pred": "13.06",
+      "actual": "10.0",
+      "odds": 1.4
+    },
+    {
+      "date": "2025-04-19",
+      "correct": false,
+      "pred": "8.47",
+      "actual": "13.0",
+      "odds": 3.75
+    },
+    {
+      "date": "2025-04-20",
+      "correct": true,
+      "pred": "13.57",
+      "actual": "12.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-04-20",
+      "correct": false,
+      "pred": "14.9",
+      "actual": "7.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-04-20",
+      "correct": true,
+      "pred": "12.58",
+      "actual": "11.0",
+      "odds": 3.4
+    },
+    {
+      "date": "2025-04-23",
+      "correct": true,
+      "pred": "10.71",
+      "actual": "15.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-04-23",
+      "correct": false,
+      "pred": "9.09",
+      "actual": "13.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-04-23",
+      "correct": false,
+      "pred": "13.66",
+      "actual": "8.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2025-04-23",
+      "correct": false,
+      "pred": "8.55",
+      "actual": "14.0",
+      "odds": 3.3
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "7.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "12.62",
+      "actual": "9.0",
+      "odds": 1.85
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "11.8",
+      "actual": "9.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "11.15",
+      "actual": "7.0",
+      "odds": 1.83
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "11.54",
+      "actual": "5.0",
+      "odds": 1.2
+    },
+    {
+      "date": "2025-04-27",
+      "correct": true,
+      "pred": "11.77",
+      "actual": "15.0",
+      "odds": 1.25
+    },
+    {
+      "date": "2025-04-27",
+      "correct": false,
+      "pred": "13.11",
+      "actual": "7.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2025-04-28",
+      "correct": false,
+      "pred": "12.25",
+      "actual": "6.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-04-28",
+      "correct": true,
+      "pred": "11.5",
+      "actual": "11.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-04-28",
+      "correct": false,
+      "pred": "14.63",
+      "actual": "5.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-05-02",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "6.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-05-03",
+      "correct": false,
+      "pred": "11.63",
+      "actual": "7.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-05-03",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "7.0",
+      "odds": 7.0
+    },
+    {
+      "date": "2025-05-03",
+      "correct": true,
+      "pred": "13.07",
+      "actual": "10.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2025-05-03",
+      "correct": false,
+      "pred": "12.45",
+      "actual": "9.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2025-05-04",
+      "correct": false,
+      "pred": "10.86",
+      "actual": "9.0",
+      "odds": 4.33
+    },
+    {
+      "date": "2025-05-04",
+      "correct": true,
+      "pred": "11.97",
+      "actual": "10.0",
+      "odds": 13.0
+    },
+    {
+      "date": "2025-05-04",
+      "correct": true,
+      "pred": "12.61",
+      "actual": "11.0",
+      "odds": 1.65
+    },
+    {
+      "date": "2025-05-04",
+      "correct": false,
+      "pred": "9.05",
+      "actual": "13.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-05-05",
+      "correct": false,
+      "pred": "7.95",
+      "actual": "15.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-05-09",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "7.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-05-10",
+      "correct": false,
+      "pred": "10.83",
+      "actual": "6.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-05-10",
+      "correct": false,
+      "pred": "13.58",
+      "actual": "4.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-05-10",
+      "correct": false,
+      "pred": "10.22",
+      "actual": "6.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-05-11",
+      "correct": false,
+      "pred": "12.54",
+      "actual": "7.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2025-05-11",
+      "correct": false,
+      "pred": "11.51",
+      "actual": "9.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-05-11",
+      "correct": true,
+      "pred": "10.43",
+      "actual": "12.0",
+      "odds": 5.75
+    },
+    {
+      "date": "2025-05-11",
+      "correct": false,
+      "pred": "11.03",
+      "actual": "8.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-05-12",
+      "correct": false,
+      "pred": "10.27",
+      "actual": "6.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2025-05-12",
+      "correct": true,
+      "pred": "9.5",
+      "actual": "15.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-05-17",
+      "correct": false,
+      "pred": "13.65",
+      "actual": "7.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-05-18",
+      "correct": true,
+      "pred": "11.63",
+      "actual": "15.0",
+      "odds": 1.38
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "8.29",
+      "actual": "16.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-05-18",
+      "correct": true,
+      "pred": "12.84",
+      "actual": "10.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "12.54",
+      "actual": "6.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "7.0",
+      "odds": 1.83
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "10.91",
+      "actual": "6.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "14.11",
+      "actual": "8.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "12.25",
+      "actual": "6.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-05-18",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "5.0",
+      "odds": 6.25
+    },
+    {
+      "date": "2025-05-23",
+      "correct": true,
+      "pred": "12.8",
+      "actual": "11.0",
+      "odds": 1.2
+    },
+    {
+      "date": "2025-05-23",
+      "correct": false,
+      "pred": "11.98",
+      "actual": "5.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-05-24",
+      "correct": true,
+      "pred": "11.97",
+      "actual": "14.0",
+      "odds": 1.5
+    },
+    {
+      "date": "2025-05-24",
+      "correct": true,
+      "pred": "14.29",
+      "actual": "10.0",
+      "odds": 1.22
+    },
+    {
+      "date": "2025-05-25",
+      "correct": false,
+      "pred": "9.05",
+      "actual": "10.0",
+      "odds": 3.7
+    },
+    {
+      "date": "2025-05-25",
+      "correct": false,
+      "pred": "13.42",
+      "actual": "3.0",
+      "odds": 5.5
+    },
+    {
+      "date": "2025-05-25",
+      "correct": true,
+      "pred": "10.98",
+      "actual": "12.0",
+      "odds": 5.75
+    },
+    {
+      "date": "2025-05-25",
+      "correct": true,
+      "pred": "13.66",
+      "actual": "14.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-05-25",
+      "correct": true,
+      "pred": "13.42",
+      "actual": "11.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2025-05-25",
+      "correct": true,
+      "pred": "12.29",
+      "actual": "18.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-08-23",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "6.0",
+      "odds": 2.1
+    },
+    {
+      "date": "2025-08-23",
+      "correct": false,
+      "pred": "8.64",
+      "actual": "11.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2025-08-23",
+      "correct": true,
+      "pred": "11.72",
+      "actual": "10.0",
+      "odds": 1.9
+    },
+    {
+      "date": "2025-08-23",
+      "correct": false,
+      "pred": "13.08",
+      "actual": "3.0",
+      "odds": 6.0
+    },
+    {
+      "date": "2025-08-24",
+      "correct": false,
+      "pred": "11.77",
+      "actual": "5.0",
+      "odds": 3.25
+    },
+    {
+      "date": "2025-08-24",
+      "correct": false,
+      "pred": "11.83",
+      "actual": "6.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-08-24",
+      "correct": true,
+      "pred": "11.41",
+      "actual": "14.0",
+      "odds": 1.4
+    },
+    {
+      "date": "2025-08-24",
+      "correct": true,
+      "pred": "10.83",
+      "actual": "12.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2025-08-25",
+      "correct": true,
+      "pred": "10.99",
+      "actual": "11.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2025-08-25",
+      "correct": false,
+      "pred": "11.76",
+      "actual": "6.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-08-29",
+      "correct": false,
+      "pred": "12.45",
+      "actual": "9.0",
+      "odds": 6.0
+    },
+    {
+      "date": "2025-08-29",
+      "correct": false,
+      "pred": "12.54",
+      "actual": "9.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-08-30",
+      "correct": false,
+      "pred": "13.16",
+      "actual": "8.0",
+      "odds": 5.25
+    },
+    {
+      "date": "2025-08-30",
+      "correct": true,
+      "pred": "13.22",
+      "actual": "13.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-08-30",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "3.0",
+      "odds": 4.1
+    },
+    {
+      "date": "2025-08-30",
+      "correct": true,
+      "pred": "11.14",
+      "actual": "11.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-08-31",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "7.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-08-31",
+      "correct": true,
+      "pred": "12.61",
+      "actual": "10.0",
+      "odds": 3.2
+    },
+    {
+      "date": "2025-08-31",
+      "correct": true,
+      "pred": "10.87",
+      "actual": "15.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-08-31",
+      "correct": false,
+      "pred": "10.22",
+      "actual": "9.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2025-09-13",
+      "correct": true,
+      "pred": "11.78",
+      "actual": "13.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-09-13",
+      "correct": true,
+      "pred": "10.6",
+      "actual": "14.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2025-09-13",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "9.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-09-14",
+      "correct": true,
+      "pred": "11.0",
+      "actual": "11.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2025-09-14",
+      "correct": true,
+      "pred": "11.1",
+      "actual": "10.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-09-14",
+      "correct": true,
+      "pred": "10.17",
+      "actual": "14.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2025-09-14",
+      "correct": true,
+      "pred": "10.22",
+      "actual": "10.0",
+      "odds": 1.4
+    },
+    {
+      "date": "2025-09-14",
+      "correct": true,
+      "pred": "12.13",
+      "actual": "11.0",
+      "odds": 1.5
+    },
+    {
+      "date": "2025-09-15",
+      "correct": true,
+      "pred": "11.41",
+      "actual": "11.0",
+      "odds": 2.38
+    },
+    {
+      "date": "2025-09-15",
+      "correct": false,
+      "pred": "9.55",
+      "actual": "8.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-09-19",
+      "correct": true,
+      "pred": "12.07",
+      "actual": "11.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2025-09-20",
+      "correct": false,
+      "pred": "13.4",
+      "actual": "5.0",
+      "odds": 4.33
+    },
+    {
+      "date": "2025-09-20",
+      "correct": false,
+      "pred": "8.07",
+      "actual": "10.0",
+      "odds": 1.83
+    },
+    {
+      "date": "2025-09-20",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "8.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2025-09-21",
+      "correct": true,
+      "pred": "14.22",
+      "actual": "10.0",
+      "odds": 1.29
+    },
+    {
+      "date": "2025-09-21",
+      "correct": false,
+      "pred": "11.99",
+      "actual": "8.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-09-21",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "6.0",
+      "odds": 2.55
+    },
+    {
+      "date": "2025-09-21",
+      "correct": false,
+      "pred": "12.81",
+      "actual": "9.0",
+      "odds": 2.8
+    },
+    {
+      "date": "2025-09-21",
+      "correct": false,
+      "pred": "13.4",
+      "actual": "1.0",
+      "odds": 3.25
+    },
+    {
+      "date": "2025-09-22",
+      "correct": false,
+      "pred": "11.33",
+      "actual": "8.0",
+      "odds": 1.27
+    },
+    {
+      "date": "2025-09-27",
+      "correct": true,
+      "pred": "12.29",
+      "actual": "19.0",
+      "odds": 1.85
+    },
+    {
+      "date": "2025-09-27",
+      "correct": false,
+      "pred": "13.66",
+      "actual": "8.0",
+      "odds": 6.0
+    },
+    {
+      "date": "2025-09-27",
+      "correct": false,
+      "pred": "10.27",
+      "actual": "7.0",
+      "odds": 1.45
+    },
+    {
+      "date": "2025-09-28",
+      "correct": true,
+      "pred": "8.33",
+      "actual": "9.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2025-09-28",
+      "correct": false,
+      "pred": "11.25",
+      "actual": "8.0",
+      "odds": 2.35
+    },
+    {
+      "date": "2025-09-28",
+      "correct": false,
+      "pred": "12.04",
+      "actual": "6.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-09-28",
+      "correct": true,
+      "pred": "14.02",
+      "actual": "10.0",
+      "odds": 3.3
+    },
+    {
+      "date": "2025-09-28",
+      "correct": false,
+      "pred": "9.06",
+      "actual": "12.0",
+      "odds": 4.2
+    },
+    {
+      "date": "2025-09-29",
+      "correct": false,
+      "pred": "11.54",
+      "actual": "7.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-09-29",
+      "correct": false,
+      "pred": "11.11",
+      "actual": "6.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-10-03",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "6.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-10-04",
+      "correct": true,
+      "pred": "9.95",
+      "actual": "11.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2025-10-04",
+      "correct": true,
+      "pred": "11.27",
+      "actual": "14.0",
+      "odds": 1.2
+    },
+    {
+      "date": "2025-10-04",
+      "correct": false,
+      "pred": "11.87",
+      "actual": "8.0",
+      "odds": 1.7
+    },
+    {
+      "date": "2025-10-04",
+      "correct": false,
+      "pred": "9.19",
+      "actual": "13.0",
+      "odds": 1.85
+    },
+    {
+      "date": "2025-10-05",
+      "correct": true,
+      "pred": "11.57",
+      "actual": "12.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2025-10-05",
+      "correct": false,
+      "pred": "11.66",
+      "actual": "6.0",
+      "odds": 2.7
+    },
+    {
+      "date": "2025-10-05",
+      "correct": false,
+      "pred": "12.86",
+      "actual": "4.0",
+      "odds": 1.6
+    },
+    {
+      "date": "2025-10-05",
+      "correct": false,
+      "pred": "11.4",
+      "actual": "9.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-10-05",
+      "correct": false,
+      "pred": "13.19",
+      "actual": "7.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-10-18",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "9.0",
+      "odds": 3.3
+    },
+    {
+      "date": "2025-10-18",
+      "correct": true,
+      "pred": "10.55",
+      "actual": "14.0",
+      "odds": 5.25
+    },
+    {
+      "date": "2025-10-18",
+      "correct": true,
+      "pred": "11.66",
+      "actual": "10.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2025-10-18",
+      "correct": false,
+      "pred": "9.12",
+      "actual": "11.0",
+      "odds": 2.55
+    },
+    {
+      "date": "2025-10-19",
+      "correct": false,
+      "pred": "11.54",
+      "actual": "4.0",
+      "odds": 1.5
+    },
+    {
+      "date": "2025-10-19",
+      "correct": false,
+      "pred": "11.01",
+      "actual": "8.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-10-19",
+      "correct": false,
+      "pred": "11.16",
+      "actual": "3.0",
+      "odds": 2.1
+    },
+    {
+      "date": "2025-10-19",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "5.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2025-10-19",
+      "correct": false,
+      "pred": "10.86",
+      "actual": "9.0",
+      "odds": 3.6
+    },
+    {
+      "date": "2025-10-20",
+      "correct": false,
+      "pred": "11.77",
+      "actual": "9.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-10-24",
+      "correct": false,
+      "pred": "10.97",
+      "actual": "8.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-10-25",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "6.0",
+      "odds": 3.9
+    },
+    {
+      "date": "2025-10-25",
+      "correct": false,
+      "pred": "8.76",
+      "actual": "13.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2025-10-25",
+      "correct": true,
+      "pred": "10.91",
+      "actual": "12.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-10-25",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "5.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-10-26",
+      "correct": true,
+      "pred": "9.84",
+      "actual": "12.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-10-26",
+      "correct": true,
+      "pred": "12.52",
+      "actual": "10.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-10-26",
+      "correct": false,
+      "pred": "10.5",
+      "actual": "7.0",
+      "odds": 3.2
+    },
+    {
+      "date": "2025-10-26",
+      "correct": false,
+      "pred": "10.26",
+      "actual": "5.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-10-26",
+      "correct": true,
+      "pred": "10.61",
+      "actual": "11.0",
+      "odds": 2.7
+    },
+    {
+      "date": "2025-10-28",
+      "correct": true,
+      "pred": "9.98",
+      "actual": "13.0",
+      "odds": 2.63
+    },
+    {
+      "date": "2025-10-28",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "8.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2025-10-29",
+      "correct": false,
+      "pred": "9.18",
+      "actual": "13.0",
+      "odds": 1.38
+    },
+    {
+      "date": "2025-10-29",
+      "correct": true,
+      "pred": "12.37",
+      "actual": "10.0",
+      "odds": 1.85
+    },
+    {
+      "date": "2025-10-29",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "6.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2025-10-29",
+      "correct": true,
+      "pred": "9.32",
+      "actual": "4.0",
+      "odds": 1.6
+    },
+    {
+      "date": "2025-10-29",
+      "correct": false,
+      "pred": "7.94",
+      "actual": "12.0",
+      "odds": 1.44
+    },
+    {
+      "date": "2025-10-29",
+      "correct": true,
+      "pred": "11.83",
+      "actual": "11.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-10-30",
+      "correct": false,
+      "pred": "8.68",
+      "actual": "13.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-10-30",
+      "correct": false,
+      "pred": "13.32",
+      "actual": "4.0",
+      "odds": 3.7
+    },
+    {
+      "date": "2025-11-01",
+      "correct": false,
+      "pred": "12.45",
+      "actual": "5.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2025-11-01",
+      "correct": false,
+      "pred": "11.63",
+      "actual": "9.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-11-01",
+      "correct": false,
+      "pred": "11.76",
+      "actual": "6.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-11-02",
+      "correct": false,
+      "pred": "8.47",
+      "actual": "15.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2025-11-02",
+      "correct": false,
+      "pred": "14.9",
+      "actual": "6.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-11-02",
+      "correct": false,
+      "pred": "11.85",
+      "actual": "6.0",
+      "odds": 4.2
+    },
+    {
+      "date": "2025-11-02",
+      "correct": true,
+      "pred": "10.87",
+      "actual": "12.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2025-11-02",
+      "correct": false,
+      "pred": "12.74",
+      "actual": "8.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-11-03",
+      "correct": true,
+      "pred": "10.86",
+      "actual": "10.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2025-11-03",
+      "correct": true,
+      "pred": "13.25",
+      "actual": "12.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-11-07",
+      "correct": false,
+      "pred": "11.77",
+      "actual": "9.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-11-08",
+      "correct": false,
+      "pred": "13.69",
+      "actual": "7.0",
+      "odds": 5.75
+    },
+    {
+      "date": "2025-11-08",
+      "correct": false,
+      "pred": "12.62",
+      "actual": "8.0",
+      "odds": 1.5
+    },
+    {
+      "date": "2025-11-08",
+      "correct": true,
+      "pred": "9.81",
+      "actual": "10.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2025-11-08",
+      "correct": true,
+      "pred": "8.34",
+      "actual": "9.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2025-11-09",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "4.0",
+      "odds": 1.36
+    },
+    {
+      "date": "2025-11-09",
+      "correct": false,
+      "pred": "14.55",
+      "actual": "7.0",
+      "odds": 1.55
+    },
+    {
+      "date": "2025-11-09",
+      "correct": true,
+      "pred": "12.34",
+      "actual": "10.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2025-11-09",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "9.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-11-09",
+      "correct": false,
+      "pred": "13.4",
+      "actual": "5.0",
+      "odds": 1.44
+    },
+    {
+      "date": "2025-11-22",
+      "correct": false,
+      "pred": "10.9",
+      "actual": "8.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-11-22",
+      "correct": false,
+      "pred": "10.32",
+      "actual": "8.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2025-11-22",
+      "correct": false,
+      "pred": "13.71",
+      "actual": "9.0",
+      "odds": 3.75
+    },
+    {
+      "date": "2025-11-22",
+      "correct": true,
+      "pred": "12.13",
+      "actual": "10.0",
+      "odds": 3.9
+    },
+    {
+      "date": "2025-11-23",
+      "correct": true,
+      "pred": "10.67",
+      "actual": "10.0",
+      "odds": 1.9
+    },
+    {
+      "date": "2025-11-23",
+      "correct": true,
+      "pred": "11.59",
+      "actual": "10.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-11-23",
+      "correct": false,
+      "pred": "12.25",
+      "actual": "8.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2025-11-23",
+      "correct": false,
+      "pred": "13.4",
+      "actual": "8.0",
+      "odds": 6.0
+    },
+    {
+      "date": "2025-11-24",
+      "correct": false,
+      "pred": "14.9",
+      "actual": "7.0",
+      "odds": 2.1
+    },
+    {
+      "date": "2025-11-24",
+      "correct": false,
+      "pred": "15.89",
+      "actual": "7.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-11-28",
+      "correct": false,
+      "pred": "14.55",
+      "actual": "8.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-11-29",
+      "correct": false,
+      "pred": "10.8",
+      "actual": "7.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2025-11-29",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "5.0",
+      "odds": 2.05
+    },
+    {
+      "date": "2025-11-29",
+      "correct": true,
+      "pred": "9.53",
+      "actual": "14.0",
+      "odds": 2.7
+    },
+    {
+      "date": "2025-11-29",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "5.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-11-30",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "6.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-11-30",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "9.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2025-11-30",
+      "correct": true,
+      "pred": "14.37",
+      "actual": "10.0",
+      "odds": 8.0
+    },
+    {
+      "date": "2025-11-30",
+      "correct": true,
+      "pred": "11.57",
+      "actual": "12.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2025-12-01",
+      "correct": true,
+      "pred": "11.64",
+      "actual": "21.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2025-12-06",
+      "correct": false,
+      "pred": "11.71",
+      "actual": "8.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2025-12-06",
+      "correct": true,
+      "pred": "10.3",
+      "actual": "11.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2025-12-06",
+      "correct": true,
+      "pred": "13.07",
+      "actual": "10.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2025-12-07",
+      "correct": true,
+      "pred": "12.37",
+      "actual": "10.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-12-07",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "5.0",
+      "odds": 5.25
+    },
+    {
+      "date": "2025-12-07",
+      "correct": true,
+      "pred": "11.14",
+      "actual": "10.0",
+      "odds": 2.6
+    },
+    {
+      "date": "2025-12-07",
+      "correct": false,
+      "pred": "13.49",
+      "actual": "9.0",
+      "odds": 2.35
+    },
+    {
+      "date": "2025-12-08",
+      "correct": false,
+      "pred": "14.89",
+      "actual": "6.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-12-08",
+      "correct": false,
+      "pred": "11.66",
+      "actual": "6.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-12-08",
+      "correct": false,
+      "pred": "10.8",
+      "actual": "8.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2025-12-12",
+      "correct": true,
+      "pred": "12.94",
+      "actual": "13.0",
+      "odds": 2.5
+    },
+    {
+      "date": "2025-12-13",
+      "correct": true,
+      "pred": "10.19",
+      "actual": "12.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-12-13",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "8.0",
+      "odds": 3.6
+    },
+    {
+      "date": "2025-12-13",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "9.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2025-12-14",
+      "correct": false,
+      "pred": "12.73",
+      "actual": "7.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2025-12-14",
+      "correct": true,
+      "pred": "11.98",
+      "actual": "10.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2025-12-14",
+      "correct": false,
+      "pred": "8.56",
+      "actual": "13.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2025-12-14",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "4.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2025-12-14",
+      "correct": false,
+      "pred": "12.93",
+      "actual": "7.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2025-12-15",
+      "correct": false,
+      "pred": "10.24",
+      "actual": "9.0",
+      "odds": 2.1
+    },
+    {
+      "date": "2025-12-20",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "3.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2025-12-20",
+      "correct": false,
+      "pred": "13.11",
+      "actual": "6.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2025-12-21",
+      "correct": false,
+      "pred": "11.5",
+      "actual": "8.0",
+      "odds": 2.15
+    },
+    {
+      "date": "2025-12-21",
+      "correct": false,
+      "pred": "12.73",
+      "actual": "5.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2025-12-21",
+      "correct": false,
+      "pred": "11.93",
+      "actual": "5.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2025-12-21",
+      "correct": false,
+      "pred": "8.65",
+      "actual": "16.0",
+      "odds": 4.0
+    },
+    {
+      "date": "2025-12-27",
+      "correct": true,
+      "pred": "10.01",
+      "actual": "11.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2025-12-27",
+      "correct": true,
+      "pred": "13.06",
+      "actual": "11.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-12-27",
+      "correct": true,
+      "pred": "10.29",
+      "actual": "10.0",
+      "odds": 4.75
+    },
+    {
+      "date": "2025-12-27",
+      "correct": false,
+      "pred": "10.45",
+      "actual": "8.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2025-12-27",
+      "correct": true,
+      "pred": "10.44",
+      "actual": "10.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2025-12-28",
+      "correct": true,
+      "pred": "10.46",
+      "actual": "11.0",
+      "odds": 6.25
+    },
+    {
+      "date": "2025-12-28",
+      "correct": true,
+      "pred": "12.75",
+      "actual": "10.0",
+      "odds": 1.38
+    },
+    {
+      "date": "2025-12-28",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "5.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2025-12-28",
+      "correct": true,
+      "pred": "13.16",
+      "actual": "11.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2025-12-29",
+      "correct": false,
+      "pred": "11.49",
+      "actual": "7.0",
+      "odds": 1.6
+    },
+    {
+      "date": "2026-01-02",
+      "correct": true,
+      "pred": "11.5",
+      "actual": "13.0",
+      "odds": 6.0
+    },
+    {
+      "date": "2026-01-03",
+      "correct": true,
+      "pred": "10.53",
+      "actual": "11.0",
+      "odds": 1.27
+    },
+    {
+      "date": "2026-01-03",
+      "correct": true,
+      "pred": "13.16",
+      "actual": "11.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2026-01-03",
+      "correct": true,
+      "pred": "11.4",
+      "actual": "12.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2026-01-03",
+      "correct": false,
+      "pred": "11.63",
+      "actual": "5.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2026-01-03",
+      "correct": false,
+      "pred": "10.51",
+      "actual": "9.0",
+      "odds": 1.9
+    },
+    {
+      "date": "2026-01-04",
+      "correct": true,
+      "pred": "11.4",
+      "actual": "10.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2026-01-04",
+      "correct": false,
+      "pred": "13.0",
+      "actual": "8.0",
+      "odds": 3.4
+    },
+    {
+      "date": "2026-01-04",
+      "correct": false,
+      "pred": "11.07",
+      "actual": "8.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2026-01-04",
+      "correct": true,
+      "pred": "12.28",
+      "actual": "11.0",
+      "odds": 2.7
+    },
+    {
+      "date": "2026-01-06",
+      "correct": false,
+      "pred": "13.4",
+      "actual": "6.0",
+      "odds": 5.5
+    },
+    {
+      "date": "2026-01-06",
+      "correct": false,
+      "pred": "13.08",
+      "actual": "4.0",
+      "odds": 5.25
+    },
+    {
+      "date": "2026-01-06",
+      "correct": true,
+      "pred": "13.4",
+      "actual": "10.0",
+      "odds": 5.0
+    },
+    {
+      "date": "2026-01-07",
+      "correct": true,
+      "pred": "11.75",
+      "actual": "12.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2026-01-07",
+      "correct": false,
+      "pred": "12.18",
+      "actual": "7.0",
+      "odds": 1.36
+    },
+    {
+      "date": "2026-01-07",
+      "correct": false,
+      "pred": "7.88",
+      "actual": "10.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2026-01-07",
+      "correct": false,
+      "pred": "13.19",
+      "actual": "4.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2026-01-07",
+      "correct": false,
+      "pred": "14.37",
+      "actual": "9.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2026-01-08",
+      "correct": true,
+      "pred": "10.87",
+      "actual": "13.0",
+      "odds": 1.44
+    },
+    {
+      "date": "2026-01-08",
+      "correct": false,
+      "pred": "13.93",
+      "actual": "6.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2026-01-10",
+      "correct": false,
+      "pred": "12.37",
+      "actual": "9.0",
+      "odds": 1.6
+    },
+    {
+      "date": "2026-01-10",
+      "correct": false,
+      "pred": "13.58",
+      "actual": "7.0",
+      "odds": 1.53
+    },
+    {
+      "date": "2026-01-10",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "6.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2026-01-10",
+      "correct": false,
+      "pred": "9.18",
+      "actual": "11.0",
+      "odds": 1.83
+    },
+    {
+      "date": "2026-01-11",
+      "correct": false,
+      "pred": "13.08",
+      "actual": "6.0",
+      "odds": 2.75
+    },
+    {
+      "date": "2026-01-11",
+      "correct": true,
+      "pred": "11.16",
+      "actual": "13.0",
+      "odds": 3.8
+    },
+    {
+      "date": "2026-01-11",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "3.0",
+      "odds": 3.4
+    },
+    {
+      "date": "2026-01-11",
+      "correct": false,
+      "pred": "14.9",
+      "actual": "5.0",
+      "odds": 1.7
+    },
+    {
+      "date": "2026-01-12",
+      "correct": false,
+      "pred": "13.13",
+      "actual": "9.0",
+      "odds": 1.25
+    },
+    {
+      "date": "2026-01-12",
+      "correct": false,
+      "pred": "10.85",
+      "actual": "5.0",
+      "odds": 2.1
+    },
+    {
+      "date": "2026-01-14",
+      "correct": false,
+      "pred": "10.92",
+      "actual": "8.0",
+      "odds": 1.3
+    },
+    {
+      "date": "2026-01-14",
+      "correct": true,
+      "pred": "11.77",
+      "actual": "14.0",
+      "odds": 1.13
+    },
+    {
+      "date": "2026-01-15",
+      "correct": true,
+      "pred": "10.57",
+      "actual": "12.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2026-01-15",
+      "correct": false,
+      "pred": "12.71",
+      "actual": "9.0",
+      "odds": 3.6
+    },
+    {
+      "date": "2026-01-16",
+      "correct": true,
+      "pred": "9.94",
+      "actual": "11.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2026-01-17",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "7.0",
+      "odds": 7.0
+    },
+    {
+      "date": "2026-01-17",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "9.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2026-01-17",
+      "correct": true,
+      "pred": "10.29",
+      "actual": "19.0",
+      "odds": 6.25
+    },
+    {
+      "date": "2026-01-18",
+      "correct": true,
+      "pred": "11.0",
+      "actual": "10.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2026-01-18",
+      "correct": false,
+      "pred": "11.41",
+      "actual": "8.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2026-01-18",
+      "correct": false,
+      "pred": "14.63",
+      "actual": "3.0",
+      "odds": 3.75
+    },
+    {
+      "date": "2026-01-18",
+      "correct": true,
+      "pred": "10.23",
+      "actual": "12.0",
+      "odds": 1.29
+    },
+    {
+      "date": "2026-01-19",
+      "correct": false,
+      "pred": "11.99",
+      "actual": "5.0",
+      "odds": 2.7
+    },
+    {
+      "date": "2026-01-19",
+      "correct": false,
+      "pred": "11.5",
+      "actual": "9.0",
+      "odds": 2.63
+    },
+    {
+      "date": "2026-01-23",
+      "correct": true,
+      "pred": "14.58",
+      "actual": "12.0",
+      "odds": 1.18
+    },
+    {
+      "date": "2026-01-24",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "5.0",
+      "odds": 4.0
+    },
+    {
+      "date": "2026-01-24",
+      "correct": false,
+      "pred": "15.48",
+      "actual": "3.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2026-01-24",
+      "correct": true,
+      "pred": "11.57",
+      "actual": "11.0",
+      "odds": 1.62
+    },
+    {
+      "date": "2026-01-25",
+      "correct": false,
+      "pred": "12.11",
+      "actual": "8.0",
+      "odds": 1.91
+    },
+    {
+      "date": "2026-01-25",
+      "correct": false,
+      "pred": "7.76",
+      "actual": "15.0",
+      "odds": 1.42
+    },
+    {
+      "date": "2026-01-25",
+      "correct": false,
+      "pred": "12.54",
+      "actual": "7.0",
+      "odds": 3.0
+    },
+    {
+      "date": "2026-01-25",
+      "correct": false,
+      "pred": "10.9",
+      "actual": "4.0",
+      "odds": 2.05
+    },
+    {
+      "date": "2026-01-25",
+      "correct": false,
+      "pred": "10.5",
+      "actual": "8.0",
+      "odds": 2.63
+    },
+    {
+      "date": "2026-01-26",
+      "correct": true,
+      "pred": "9.81",
+      "actual": "11.0",
+      "odds": 2.8
+    },
+    {
+      "date": "2026-01-30",
+      "correct": false,
+      "pred": "12.47",
+      "actual": "8.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2026-01-31",
+      "correct": false,
+      "pred": "10.72",
+      "actual": "9.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2026-01-31",
+      "correct": false,
+      "pred": "13.34",
+      "actual": "8.0",
+      "odds": 1.8
+    },
+    {
+      "date": "2026-01-31",
+      "correct": false,
+      "pred": "11.98",
+      "actual": "7.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2026-02-01",
+      "correct": true,
+      "pred": "9.55",
+      "actual": "11.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2026-02-01",
+      "correct": false,
+      "pred": "11.14",
+      "actual": "8.0",
+      "odds": 2.35
+    },
+    {
+      "date": "2026-02-01",
+      "correct": false,
+      "pred": "11.85",
+      "actual": "7.0",
+      "odds": 11.0
+    },
+    {
+      "date": "2026-02-01",
+      "correct": false,
+      "pred": "12.65",
+      "actual": "8.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2026-02-02",
+      "correct": true,
+      "pred": "10.21",
+      "actual": "11.0",
+      "odds": 4.33
+    },
+    {
+      "date": "2026-02-03",
+      "correct": false,
+      "pred": "11.85",
+      "actual": "5.0",
+      "odds": 2.9
+    },
+    {
+      "date": "2026-02-06",
+      "correct": true,
+      "pred": "10.43",
+      "actual": "12.0",
+      "odds": 2.55
+    },
+    {
+      "date": "2026-02-07",
+      "correct": false,
+      "pred": "11.07",
+      "actual": "7.0",
+      "odds": 4.5
+    },
+    {
+      "date": "2026-02-07",
+      "correct": true,
+      "pred": "9.84",
+      "actual": "13.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2026-02-08",
+      "correct": false,
+      "pred": "12.24",
+      "actual": "9.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2026-02-08",
+      "correct": true,
+      "pred": "15.57",
+      "actual": "11.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2026-02-08",
+      "correct": false,
+      "pred": "12.04",
+      "actual": "7.0",
+      "odds": 3.1
+    },
+    {
+      "date": "2026-02-08",
+      "correct": false,
+      "pred": "11.63",
+      "actual": "9.0",
+      "odds": 1.6
+    },
+    {
+      "date": "2026-02-09",
+      "correct": true,
+      "pred": "13.13",
+      "actual": "15.0",
+      "odds": 1.36
+    },
+    {
+      "date": "2026-02-09",
+      "correct": true,
+      "pred": "9.49",
+      "actual": "8.0",
+      "odds": 1.48
+    },
+    {
+      "date": "2026-02-13",
+      "correct": false,
+      "pred": "11.98",
+      "actual": "4.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2026-02-14",
+      "correct": false,
+      "pred": "10.35",
+      "actual": "9.0",
+      "odds": 3.5
+    },
+    {
+      "date": "2026-02-14",
+      "correct": false,
+      "pred": "11.58",
+      "actual": "5.0",
+      "odds": 1.95
+    },
+    {
+      "date": "2026-02-14",
+      "correct": false,
+      "pred": "12.12",
+      "actual": "6.0",
+      "odds": 1.73
+    },
+    {
+      "date": "2026-02-15",
+      "correct": false,
+      "pred": "13.69",
+      "actual": "3.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2026-02-15",
+      "correct": false,
+      "pred": "13.08",
+      "actual": "6.0",
+      "odds": 3.3
+    },
+    {
+      "date": "2026-02-15",
+      "correct": true,
+      "pred": "12.86",
+      "actual": "13.0",
+      "odds": 2.3
+    },
+    {
+      "date": "2026-02-15",
+      "correct": false,
+      "pred": "8.89",
+      "actual": "17.0",
+      "odds": 3.2
+    },
+    {
+      "date": "2026-02-15",
+      "correct": true,
+      "pred": "11.28",
+      "actual": "13.0",
+      "odds": 2.4
+    },
+    {
+      "date": "2026-02-16",
+      "correct": true,
+      "pred": "12.04",
+      "actual": "10.0",
+      "odds": 2.2
+    },
+    {
+      "date": "2026-02-18",
+      "correct": false,
+      "pred": "12.84",
+      "actual": "8.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2026-02-20",
+      "correct": true,
+      "pred": "10.45",
+      "actual": "11.0",
+      "odds": 1.75
+    },
+    {
+      "date": "2026-02-21",
+      "correct": false,
+      "pred": "11.5",
+      "actual": "9.0",
+      "odds": 3.4
+    },
+    {
+      "date": "2026-02-21",
+      "correct": false,
+      "pred": "11.8",
+      "actual": "9.0",
+      "odds": 2.0
+    },
+    {
+      "date": "2026-02-21",
+      "correct": true,
+      "pred": "10.15",
+      "actual": "12.0",
+      "odds": 7.0
+    },
+    {
+      "date": "2026-02-22",
+      "correct": true,
+      "pred": "11.1",
+      "actual": "10.0",
+      "odds": 1.36
+    },
+    {
+      "date": "2026-02-22",
+      "correct": false,
+      "pred": "14.28",
+      "actual": "7.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2026-02-22",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "4.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2026-02-22",
+      "correct": false,
+      "pred": "12.06",
+      "actual": "7.0",
+      "odds": 2.45
+    },
+    {
+      "date": "2026-02-23",
+      "correct": false,
+      "pred": "11.9",
+      "actual": "7.0",
+      "odds": 1.67
+    },
+    {
+      "date": "2026-02-23",
+      "correct": true,
+      "pred": "11.95",
+      "actual": "11.0",
+      "odds": 1.85
+    },
+    {
+      "date": "2026-02-27",
+      "correct": true,
+      "pred": "8.84",
+      "actual": "9.0",
+      "odds": 2.25
+    },
+    {
+      "date": "2026-02-28",
+      "correct": false,
+      "pred": "10.62",
+      "actual": "7.0",
+      "odds": 7.5
+    },
+    {
+      "date": "2026-02-28",
+      "correct": true,
+      "pred": "11.96",
+      "actual": "12.0",
+      "odds": 1.33
+    },
+    {
+      "date": "2026-02-28",
+      "correct": false,
+      "pred": "13.07",
+      "actual": "6.0",
+      "odds": 1.38
+    },
+    {
+      "date": "2026-03-01",
+      "correct": true,
+      "pred": "10.89",
+      "actual": "13.0",
+      "odds": 6.5
+    },
+    {
+      "date": "2026-03-01",
+      "correct": false,
+      "pred": "9.14",
+      "actual": "12.0",
+      "odds": 3.8
+    },
+    {
+      "date": "2026-03-01",
+      "correct": false,
+      "pred": "8.4",
+      "actual": "15.0",
+      "odds": 2.88
+    },
+    {
+      "date": "2026-03-01",
+      "correct": false,
+      "pred": "11.32",
+      "actual": "5.0",
+      "odds": 2.63
+    },
+    {
+      "date": "2026-03-02",
+      "correct": true,
+      "pred": "12.61",
+      "actual": "11.0",
+      "odds": 4.2
+    },
+    {
+      "date": "2026-03-02",
+      "correct": true,
+      "pred": "9.32",
+      "actual": "7.0",
+      "odds": 3.25
+    }
+  ]
+}

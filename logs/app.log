@@ -1,0 +1,426 @@
+[2026-03-05 19:53:45] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 19:53:46] INFO: Database initialized
+[2026-03-05 19:53:46] INFO: DB backup created: D:\football_ai_predictor\database\backups\betting_log_20260305.db
+[2026-03-05 19:54:25] WARNING: Error loading https://www.football-data.co.uk/mmz4281/0607/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:54:41] WARNING: Error loading https://www.football-data.co.uk/mmz4281/0708/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:54:57] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1011/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:55:12] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1112/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:55:28] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1314/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:55:44] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1516/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:55:59] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1617/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:56:15] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1718/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:56:30] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1819/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:56:45] WARNING: Error loading https://www.football-data.co.uk/mmz4281/1920/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:57:00] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2021/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:57:16] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2122/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:57:31] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2324/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:57:47] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2425/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:58:02] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2526/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:58:17] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2627/E0.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-05 19:58:17] ERROR: LoadWorker error
+Traceback (most recent call last):
+  File "D:\football_ai_predictor\gui\load_worker.py", line 48, in run
+    df = loader.load_league(code, progress_cb=self.progress.emit)
+  File "D:\football_ai_predictor\core\data_loader.py", line 61, in load_league
+    df = df[df["Date"] <= cutoff].copy()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\arraylike.py", line 54, in __le__
+    return self._cmp_method(other, operator.le)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\series.py", line 6735, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\ops\array_ops.py", line 341, in comparison_op
+    res_values = op(lvalues, rvalues)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\arraylike.py", line 54, in __le__
+    return self._cmp_method(other, operator.le)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\arrays\string_.py", line 1220, in _cmp_method
+    result[valid] = op(self._ndarray[valid], other)
+                    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-05 20:03:38] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 20:03:38] INFO: Config loaded from config.json
+[2026-03-05 20:03:38] INFO: Database initialized
+[2026-03-05 20:04:15] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_0607.csv
+[2026-03-05 20:04:36] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_0708.csv
+[2026-03-05 20:04:57] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1011.csv
+[2026-03-05 20:05:18] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1112.csv
+[2026-03-05 20:05:39] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1314.csv
+[2026-03-05 20:06:02] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1718.csv
+[2026-03-05 20:06:23] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1920.csv
+[2026-03-05 20:06:45] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2021.csv
+[2026-03-05 20:07:06] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2122.csv
+[2026-03-05 20:07:27] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2324.csv
+[2026-03-05 20:07:48] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2526.csv
+[2026-03-05 20:08:09] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2627.csv
+[2026-03-05 20:08:09] INFO: E0: 3800 historical matches loaded
+[2026-03-05 20:43:55] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 20:43:55] INFO: Config loaded from config.json
+[2026-03-05 20:43:55] INFO: Database initialized
+[2026-03-05 20:45:15] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_0607.csv
+[2026-03-05 20:45:36] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_0708.csv
+[2026-03-05 20:45:57] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1011.csv
+[2026-03-05 20:46:16] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1112.csv
+[2026-03-05 20:46:37] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1314.csv
+[2026-03-05 20:46:59] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1718.csv
+[2026-03-05 20:47:20] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_1920.csv
+[2026-03-05 20:47:41] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2021.csv
+[2026-03-05 20:48:02] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2122.csv
+[2026-03-05 20:48:23] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2324.csv
+[2026-03-05 20:48:44] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2526.csv
+[2026-03-05 20:49:05] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\E0_2627.csv
+[2026-03-05 20:49:05] INFO: E0: 3800 historical matches loaded
+[2026-03-05 20:50:58] WARNING: No internet, trying cache: D:\football_ai_predictor\data\csv\fixtures.csv
+[2026-03-05 21:28:19] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 21:28:19] INFO: Config loaded from config.json
+[2026-03-05 21:28:19] INFO: Database initialized
+[2026-03-05 21:28:47] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1011.csv
+[2026-03-05 21:29:08] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1112.csv
+[2026-03-05 21:29:29] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1314.csv
+[2026-03-05 21:29:50] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1718.csv
+[2026-03-05 21:30:11] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1920.csv
+[2026-03-05 21:30:32] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2021.csv
+[2026-03-05 21:30:53] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2122.csv
+[2026-03-05 21:31:14] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2324.csv
+[2026-03-05 21:31:15] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2526/E0.csv
+[2026-03-05 21:31:36] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2627.csv
+[2026-03-05 21:31:36] INFO: E0: 2950 historical matches loaded
+[2026-03-05 21:32:17] INFO: Backtest E0/cards: Winrate=75.7% ROI=100.9% (302/399 matches)
+[2026-03-05 21:32:33] INFO: Downloaded: https://www.football-data.co.uk/fixtures.csv
+[2026-03-05 21:32:33] INFO: Fixtures for E0: 1 matches
+[2026-03-05 23:19:49] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:19:49] INFO: ====== WebDriver manager ======
+[2026-03-05 23:19:50] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:20:11] WARNING: OddsPortal scraping failed (Tottenham vs Crystal Palace): Could not reach host. Are you offline?
+[2026-03-05 23:21:08] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:21:08] INFO: ====== WebDriver manager ======
+[2026-03-05 23:21:09] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:21:09] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:21:29] WARNING: OddsPortal scraping failed (Tottenham vs Crystal Palace): Could not reach host. Are you offline?
+[2026-03-05 23:32:58] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 23:32:58] INFO: Database initialized
+[2026-03-05 23:34:07] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1011.csv
+[2026-03-05 23:34:08] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1112/E0.csv
+[2026-03-05 23:34:29] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1314.csv
+[2026-03-05 23:34:50] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1718.csv
+[2026-03-05 23:35:11] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1920.csv
+[2026-03-05 23:35:32] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2021.csv
+[2026-03-05 23:35:33] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2122/E0.csv
+[2026-03-05 23:35:33] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2324/E0.csv
+[2026-03-05 23:35:54] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2627.csv
+[2026-03-05 23:35:55] INFO: E0: 4090 historical matches loaded
+[2026-03-05 23:36:43] INFO: Backtest E0/corners: Winrate=44.9% ROI=9.9% (179/399 matches)
+[2026-03-05 23:37:38] INFO: Backtest E0/cards: Winrate=73.7% ROI=101.5% (294/399 matches)
+[2026-03-05 23:37:38] INFO: Fixtures for E0: 1 matches
+[2026-03-05 23:38:51] WARNING: Analysis corners error: 'R' object has no attribute 'get'
+[2026-03-05 23:38:51] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:38:51] INFO: ====== WebDriver manager ======
+[2026-03-05 23:38:51] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:38:52] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:39:13] WARNING: OddsPortal scraping failed (Tottenham vs Crystal Palace): Could not reach host. Are you offline?
+[2026-03-05 23:50:23] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-05 23:50:23] INFO: Config loaded from config.json
+[2026-03-05 23:50:23] INFO: Database initialized
+[2026-03-05 23:51:24] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1011/E0.csv
+[2026-03-05 23:51:45] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_1314.csv
+[2026-03-05 23:51:46] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1718/E0.csv
+[2026-03-05 23:51:47] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1920/E0.csv
+[2026-03-05 23:52:06] WARNING: No internet and no cache: D:\football_ai_predictor\data\csv\E0_2021.csv
+[2026-03-05 23:52:06] INFO: E0: 5230 historical matches loaded
+[2026-03-05 23:52:40] INFO: Backtest from cache: E0/corners | Winrate: 44.9%
+[2026-03-05 23:53:15] INFO: Backtest from cache: E0/cards | Winrate: 73.7%
+[2026-03-05 23:54:22] INFO: Backtest E0/goals: Winrate=47.4% ROI=20.9% (189/399 matches)
+[2026-03-05 23:55:35] WARNING: No backtest results for outcome
+[2026-03-05 23:55:35] INFO: Fixtures for E0: 1 matches
+[2026-03-05 23:58:16] WARNING: Analysis corners error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:16] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:16] WARNING: Analysis goals error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:16] WARNING: Analysis outcome error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:16] INFO: ====== WebDriver manager ======
+[2026-03-05 23:58:17] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:17] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:18] INFO: There is no [win64] chromedriver "145.0.7632.117" for browser google-chrome "145.0.7632" in cache
+[2026-03-05 23:58:18] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:19] INFO: WebDriver version 145.0.7632.117 selected
+[2026-03-05 23:58:19] INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+[2026-03-05 23:58:19] INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/145.0.7632.117/win32/chromedriver-win32.zip
+[2026-03-05 23:58:19] INFO: Driver downloading response is 200
+[2026-03-05 23:58:20] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:20] INFO: Driver has been saved in cache [C:\Users\Admin\.wdm\drivers\chromedriver\win64\145.0.7632.117]
+[2026-03-05 23:58:46] WARNING: Analysis corners error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:46] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:46] WARNING: Analysis goals error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:46] WARNING: Analysis outcome error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:46] INFO: ====== WebDriver manager ======
+[2026-03-05 23:58:47] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:47] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:48] INFO: Driver [C:\Users\Admin\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+[2026-03-05 23:58:49] WARNING: Analysis corners error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:49] WARNING: Analysis cards error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:49] WARNING: Analysis goals error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:49] WARNING: Analysis outcome error: 'R' object has no attribute 'get'
+[2026-03-05 23:58:49] INFO: ====== WebDriver manager ======
+[2026-03-05 23:58:49] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:50] INFO: Get LATEST chromedriver version for google-chrome
+[2026-03-05 23:58:50] INFO: Driver [C:\Users\Admin\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+[2026-03-06 05:14:35] INFO: Starting Football AI Predictor Pro v2.0
+[2026-03-06 05:14:36] INFO: Config loaded from config.json
+[2026-03-06 05:14:36] INFO: Database initialized
+[2026-03-06 05:14:36] INFO: DB backup created: D:\football_ai_predictor\database\backups\betting_log_20260306.db
+[2026-03-06 05:14:41] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1314/E0.csv
+[2026-03-06 05:14:42] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2021/E0.csv
+[2026-03-06 05:14:43] INFO: E0: 5990 historical matches loaded
+[2026-03-06 05:15:57] INFO: Backtest E0/corners: Winrate=51.1% ROI=28.9% (204/399 matches)
+[2026-03-06 05:17:14] INFO: Backtest E0/cards: Winrate=77.4% ROI=110.5% (309/399 matches)
+[2026-03-06 05:18:27] INFO: Backtest E0/goals: Winrate=49.9% ROI=35.5% (199/399 matches)
+[2026-03-06 05:19:44] WARNING: No backtest results for outcome
+[2026-03-06 05:19:45] INFO: Downloaded: https://www.football-data.co.uk/fixtures.csv
+[2026-03-06 05:19:45] INFO: Fixtures for E0: 0 matches
+[2026-03-06 05:20:32] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1011/I1.csv
+[2026-03-06 05:20:33] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1112/I1.csv
+[2026-03-06 05:20:34] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1213/I1.csv
+[2026-03-06 05:20:34] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1314/I1.csv
+[2026-03-06 05:20:35] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1415/I1.csv
+[2026-03-06 05:20:35] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1516/I1.csv
+[2026-03-06 05:20:36] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1617/I1.csv
+[2026-03-06 05:20:37] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1718/I1.csv
+[2026-03-06 05:20:37] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1819/I1.csv
+[2026-03-06 05:20:38] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1920/I1.csv
+[2026-03-06 05:20:38] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2021/I1.csv
+[2026-03-06 05:20:39] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2122/I1.csv
+[2026-03-06 05:20:40] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2223/I1.csv
+[2026-03-06 05:20:40] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2324/I1.csv
+[2026-03-06 05:20:41] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2425/I1.csv
+[2026-03-06 05:20:41] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2526/I1.csv
+[2026-03-06 05:20:42] INFO: I1: 5970 historical matches loaded
+[2026-03-06 05:21:47] INFO: Backtest I1/corners: Winrate=36.1% ROI=1.9% (137/380 matches)
+[2026-03-06 05:22:57] INFO: Backtest I1/cards: Winrate=66.8% ROI=96.3% (254/380 matches)
+[2026-03-06 05:24:02] INFO: Backtest I1/goals: Winrate=54.2% ROI=56.6% (206/380 matches)
+[2026-03-06 05:25:11] WARNING: No backtest results for outcome
+[2026-03-06 05:25:11] INFO: Fixtures for I1: 0 matches
+[2026-03-06 05:50:45] INFO: Starting Football AI Predictor Pro v3.0
+[2026-03-06 05:50:45] INFO: Config loaded from config.json
+[2026-03-06 05:50:45] INFO: Database initialized
+[2026-03-06 05:51:03] WARNING: AllLeagues E0: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:16] WARNING: AllLeagues SP1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:28] WARNING: AllLeagues D1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:32] WARNING: AllLeagues I1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:45] WARNING: AllLeagues F1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:47] WARNING: Error loading https://www.football-data.co.uk/mmz4281/0708/P1.csv: Error tokenizing data. C error: Expected 58 fields in line 113, saw 61
+
+[2026-03-06 05:51:58] WARNING: AllLeagues P1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:51:59] WARNING: Error loading https://www.football-data.co.uk/mmz4281/0607/T1.csv: Error tokenizing data. C error: Expected 55 fields in line 209, saw 63
+
+[2026-03-06 05:52:23] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2223/T1.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-06 05:52:25] WARNING: AllLeagues T1: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:52:35] ERROR: LoadWorker error
+Traceback (most recent call last):
+  File "D:\football_ai_predictor\gui\load_worker.py", line 44, in run
+    df = loader.load_league(code, progress_cb=self.progress.emit)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\football_ai_predictor\core\data_loader.py", line 60, in load_league
+    df = df[df["Date"] <= cutoff].copy()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\arraylike.py", line 54, in __le__
+    return self._cmp_method(other, operator.le)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\series.py", line 6735, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\ops\array_ops.py", line 341, in comparison_op
+    res_values = op(lvalues, rvalues)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\arraylike.py", line 54, in __le__
+    return self._cmp_method(other, operator.le)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\valorant_ai_coach\venv\Lib\site-packages\pandas\core\arrays\string_.py", line 1220, in _cmp_method
+    result[valid] = op(self._ndarray[valid], other)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+[2026-03-06 05:57:04] INFO: Starting Football AI Predictor Pro v3.0
+[2026-03-06 05:57:04] INFO: Config loaded from config.json
+[2026-03-06 05:57:04] INFO: Database initialized
+[2026-03-06 05:57:10] INFO: E0: 7890 historical matches loaded
+[2026-03-06 05:58:39] INFO: Model saved: corners/E0 (7890 samples)
+[2026-03-06 05:58:39] INFO: Backtest loaded from cache: E0/corners
+[2026-03-06 06:00:08] INFO: Model saved: cards/E0 (7890 samples)
+[2026-03-06 06:00:08] INFO: Backtest loaded from cache: E0/cards
+[2026-03-06 06:01:36] INFO: Model saved: goals/E0 (7890 samples)
+[2026-03-06 06:01:36] INFO: Backtest loaded from cache: E0/goals
+[2026-03-06 06:03:05] INFO: Model saved: outcome/E0 (7890 samples)
+[2026-03-06 15:05:44] INFO: Starting Football AI Predictor Pro v3.1
+[2026-03-06 15:05:44] INFO: Config loaded from config.json
+[2026-03-06 15:05:44] INFO: Database initialized
+[2026-03-06 15:06:03] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/E0.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/E0.csv
+[2026-03-06 15:06:04] INFO: E0: 7890 historical matches loaded
+[2026-03-06 15:06:04] INFO: CornersPlugin/E0: using cached model
+[2026-03-06 15:06:04] INFO: Full backtest E0/corners: 399 matches in window
+[2026-03-06 15:22:10] INFO: Starting Football AI Predictor Pro v3.1
+[2026-03-06 15:22:10] INFO: Config loaded from config.json
+[2026-03-06 15:22:10] INFO: Database initialized
+[2026-03-06 15:22:16] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/E0.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/E0.csv
+[2026-03-06 15:22:16] INFO: E0: 7890 historical matches loaded
+[2026-03-06 15:22:16] INFO: CornersPlugin/E0: using cached model
+[2026-03-06 15:22:16] INFO: Full backtest E0/corners: 143 matches in last 90 days
+[2026-03-06 15:22:16] INFO: Training model E0/corners on 7747 matches…
+[2026-03-06 15:24:18] INFO: Backtest window: last 90 days — 143 matches
+[2026-03-06 15:24:23] INFO: Backtest complete — E0 corners | bets: 143 | wins: 78 | winrate: 54.5% | ROI: 2.5%
+[2026-03-06 15:24:24] INFO: Full backtest E0/cards: 143 matches in last 90 days
+[2026-03-06 15:24:24] INFO: Training model E0/cards on 7747 matches…
+[2026-03-06 15:26:26] INFO: Backtest window: last 90 days — 143 matches
+[2026-03-06 15:26:35] INFO: Backtest complete — E0 cards | bets: 143 | wins: 80 | winrate: 55.9% | ROI: 5.2%
+[2026-03-06 15:26:35] INFO: Full backtest E0/goals: 143 matches in last 90 days
+[2026-03-06 15:26:35] INFO: Training model E0/goals on 7747 matches…
+[2026-03-06 15:28:36] INFO: Backtest window: last 90 days — 143 matches
+[2026-03-06 15:28:41] INFO: Backtest complete — E0 goals | bets: 55 | wins: 30 | winrate: 54.5% | ROI: 4.1%
+[2026-03-06 15:28:41] INFO: Full backtest E0/outcome: 143 matches in last 90 days
+[2026-03-06 15:28:41] INFO: Training model E0/outcome on 7747 matches…
+[2026-03-06 15:30:41] INFO: Backtest window: last 90 days — 143 matches
+[2026-03-06 15:30:48] INFO: Backtest complete — E0 outcome | bets: 0 | wins: 0 | winrate: 0.0% | ROI: 0.0%
+[2026-03-06 15:30:49] INFO: Downloaded: https://www.football-data.co.uk/fixtures.csv
+[2026-03-06 15:30:49] INFO: Fixtures for E0: 0 matches
+[2026-03-06 15:31:47] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/E0.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/E0.csv
+[2026-03-06 15:31:47] INFO: E0: 7890 historical matches loaded
+[2026-03-06 15:31:47] INFO: CornersPlugin/E0: using cached model
+[2026-03-06 15:31:47] INFO: Incremental backtest E0/corners: 0 new matches since 2026-03-04
+[2026-03-06 15:31:48] INFO: Incremental backtest E0/cards: 0 new matches since 2026-03-04
+[2026-03-06 15:31:48] INFO: Fixtures for E0: 0 matches
+[2026-03-06 15:31:48] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/SP1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/SP1.csv
+[2026-03-06 15:31:49] INFO: SP1: 7860 historical matches loaded
+[2026-03-06 15:33:52] INFO: Model saved: corners/SP1 (7860 samples)
+[2026-03-06 15:33:52] INFO: Full backtest SP1/corners: 113 matches in last 90 days
+[2026-03-06 15:33:52] INFO: Training model SP1/corners on 7747 matches…
+[2026-03-06 15:35:51] INFO: Backtest window: last 90 days — 113 matches
+[2026-03-06 15:35:55] INFO: Backtest complete — SP1 corners | bets: 113 | wins: 59 | winrate: 52.2% | ROI: -1.8%
+[2026-03-06 15:37:59] INFO: Model saved: cards/SP1 (7860 samples)
+[2026-03-06 15:37:59] INFO: Full backtest SP1/cards: 113 matches in last 90 days
+[2026-03-06 15:37:59] INFO: Training model SP1/cards on 7747 matches…
+[2026-03-06 15:40:02] INFO: Backtest window: last 90 days — 113 matches
+[2026-03-06 15:40:09] INFO: Backtest complete — SP1 cards | bets: 113 | wins: 58 | winrate: 51.3% | ROI: -3.5%
+[2026-03-06 15:40:09] INFO: Fixtures for SP1: 0 matches
+[2026-03-06 15:40:10] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/D1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/D1.csv
+[2026-03-06 15:40:10] INFO: D1: 6336 historical matches loaded
+[2026-03-06 15:41:45] INFO: Model saved: corners/D1 (6336 samples)
+[2026-03-06 15:41:45] INFO: Full backtest D1/corners: 101 matches in last 90 days
+[2026-03-06 15:41:45] INFO: Training model D1/corners on 6235 matches…
+[2026-03-06 15:43:16] INFO: Backtest window: last 90 days — 101 matches
+[2026-03-06 15:43:19] INFO: Backtest complete — D1 corners | bets: 101 | wins: 56 | winrate: 55.4% | ROI: 4.2%
+[2026-03-06 15:44:53] INFO: Model saved: cards/D1 (6336 samples)
+[2026-03-06 15:44:53] INFO: Full backtest D1/cards: 101 matches in last 90 days
+[2026-03-06 15:44:53] INFO: Training model D1/cards on 6235 matches…
+[2026-03-06 15:46:34] INFO: Backtest window: last 90 days — 101 matches
+[2026-03-06 15:46:40] INFO: Backtest complete — D1 cards | bets: 101 | wins: 49 | winrate: 48.5% | ROI: -8.8%
+[2026-03-06 15:46:40] INFO: Fixtures for D1: 0 matches
+[2026-03-06 15:46:41] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/I1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/I1.csv
+[2026-03-06 15:46:41] INFO: I1: 7870 historical matches loaded
+[2026-03-06 15:48:50] INFO: Model saved: corners/I1 (7870 samples)
+[2026-03-06 15:48:50] INFO: Full backtest I1/corners: 137 matches in last 90 days
+[2026-03-06 15:48:50] INFO: Training model I1/corners on 7733 matches…
+[2026-03-06 15:50:53] INFO: Backtest window: last 90 days — 137 matches
+[2026-03-06 15:50:58] INFO: Backtest complete — I1 corners | bets: 135 | wins: 70 | winrate: 51.9% | ROI: -2.5%
+[2026-03-06 15:53:05] INFO: Model saved: cards/I1 (7870 samples)
+[2026-03-06 15:53:05] INFO: Full backtest I1/cards: 137 matches in last 90 days
+[2026-03-06 15:53:05] INFO: Training model I1/cards on 7733 matches…
+[2026-03-06 15:55:12] INFO: Backtest window: last 90 days — 137 matches
+[2026-03-06 15:55:20] INFO: Backtest complete — I1 cards | bets: 137 | wins: 53 | winrate: 38.7% | ROI: -27.3%
+[2026-03-06 15:55:20] INFO: Fixtures for I1: 0 matches
+[2026-03-06 15:55:21] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/F1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/F1.csv
+[2026-03-06 15:55:21] INFO: F1: 7567 historical matches loaded
+[2026-03-06 15:57:22] INFO: Model saved: corners/F1 (7567 samples)
+[2026-03-06 15:57:22] INFO: Full backtest F1/corners: 85 matches in last 90 days
+[2026-03-06 15:57:22] INFO: Training model F1/corners on 7482 matches…
+[2026-03-06 15:59:18] INFO: Backtest window: last 90 days — 85 matches
+[2026-03-06 15:59:22] INFO: Backtest complete — F1 corners | bets: 85 | wins: 45 | winrate: 52.9% | ROI: -0.5%
+[2026-03-06 16:01:18] INFO: Model saved: cards/F1 (7567 samples)
+[2026-03-06 16:01:18] INFO: Full backtest F1/cards: 85 matches in last 90 days
+[2026-03-06 16:01:18] INFO: Training model F1/cards on 7482 matches…
+[2026-03-06 16:03:13] INFO: Backtest window: last 90 days — 85 matches
+[2026-03-06 16:03:19] INFO: Backtest complete — F1 cards | bets: 85 | wins: 40 | winrate: 47.1% | ROI: -11.5%
+[2026-03-06 16:03:19] INFO: Fixtures for F1: 0 matches
+[2026-03-06 16:03:19] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0708/P1.csv
+[2026-03-06 16:03:20] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/P1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/P1.csv
+[2026-03-06 16:03:20] INFO: P1: 5776 historical matches loaded
+[2026-03-06 16:04:45] INFO: Model saved: corners/P1 (5776 samples)
+[2026-03-06 16:04:45] INFO: Full backtest P1/corners: 104 matches in last 90 days
+[2026-03-06 16:04:45] INFO: Training model P1/corners on 5672 matches…
+[2026-03-06 16:06:12] INFO: Backtest window: last 90 days — 104 matches
+[2026-03-06 16:06:15] INFO: Backtest complete — P1 corners | bets: 104 | wins: 58 | winrate: 55.8% | ROI: 4.8%
+[2026-03-06 16:07:41] INFO: Model saved: cards/P1 (5776 samples)
+[2026-03-06 16:07:41] INFO: Full backtest P1/cards: 104 matches in last 90 days
+[2026-03-06 16:07:41] INFO: Training model P1/cards on 5672 matches…
+[2026-03-06 16:09:02] INFO: Backtest window: last 90 days — 104 matches
+[2026-03-06 16:09:08] INFO: Backtest complete — P1 cards | bets: 104 | wins: 39 | winrate: 37.5% | ROI: -29.5%
+[2026-03-06 16:09:08] INFO: Fixtures for P1: 0 matches
+[2026-03-06 16:09:19] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0607/T1.csv
+[2026-03-06 16:09:20] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2223/T1.csv
+[2026-03-06 16:09:35] WARNING: Error loading https://www.football-data.co.uk/mmz4281/2627/T1.csv: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Read timed out. (read timeout=15)
+[2026-03-06 16:09:36] INFO: T1: 6620 historical matches loaded
+[2026-03-06 16:11:16] INFO: Model saved: corners/T1 (6620 samples)
+[2026-03-06 16:11:16] INFO: Full backtest T1/corners: 86 matches in last 90 days
+[2026-03-06 16:11:16] INFO: Training model T1/corners on 6534 matches…
+[2026-03-06 16:12:55] INFO: Backtest window: last 90 days — 86 matches
+[2026-03-06 16:12:58] INFO: Backtest complete — T1 corners | bets: 86 | wins: 42 | winrate: 48.8% | ROI: -8.2%
+[2026-03-06 16:14:40] INFO: Model saved: cards/T1 (6620 samples)
+[2026-03-06 16:14:40] INFO: Full backtest T1/cards: 86 matches in last 90 days
+[2026-03-06 16:14:40] INFO: Training model T1/cards on 6534 matches…
+[2026-03-06 16:16:35] INFO: Backtest window: last 90 days — 86 matches
+[2026-03-06 16:16:41] INFO: Backtest complete — T1 cards | bets: 86 | wins: 35 | winrate: 40.7% | ROI: -23.5%
+[2026-03-06 16:16:41] INFO: Fixtures for T1: 0 matches
+[2026-03-06 18:03:13] INFO: Starting Football AI Predictor Pro v1.0
+[2026-03-06 18:03:13] INFO: Config loaded from config.json
+[2026-03-06 18:03:13] INFO: Database initialized
+[2026-03-06 18:03:22] INFO: League E1 enabled
+[2026-03-06 18:03:23] INFO: League E2 enabled
+[2026-03-06 18:03:23] INFO: League E3 enabled
+[2026-03-06 18:03:33] INFO: League F2 enabled
+[2026-03-06 18:03:35] INFO: League SP2 enabled
+[2026-03-06 18:03:36] INFO: League I2 enabled
+[2026-03-06 18:03:38] INFO: League D2 enabled
+[2026-03-06 18:03:39] INFO: League SC1 enabled
+[2026-03-06 18:03:57] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/E0.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/E0.csv
+[2026-03-06 18:03:58] INFO: E0: 7890 historical matches loaded
+[2026-03-06 18:03:58] INFO: CornersPlugin/E0: using cached model
+[2026-03-06 18:03:58] INFO: Incremental backtest E0/corners: 0 new matches since 2026-03-04
+[2026-03-06 18:03:58] INFO: Incremental backtest E0/cards: 0 new matches since 2026-03-04
+[2026-03-06 18:03:58] INFO: Fixtures for E0: 0 matches
+[2026-03-06 18:03:59] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0506/E1.csv
+[2026-03-06 18:03:59] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0607/E1.csv
+[2026-03-06 18:04:00] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0708/E1.csv
+[2026-03-06 18:04:01] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0809/E1.csv
+[2026-03-06 18:04:01] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/0910/E1.csv
+[2026-03-06 18:04:02] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1011/E1.csv
+[2026-03-06 18:04:03] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1112/E1.csv
+[2026-03-06 18:04:03] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1213/E1.csv
+[2026-03-06 18:04:04] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1314/E1.csv
+[2026-03-06 18:04:05] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1415/E1.csv
+[2026-03-06 18:04:05] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1516/E1.csv
+[2026-03-06 18:04:06] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1617/E1.csv
+[2026-03-06 18:04:07] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1718/E1.csv
+[2026-03-06 18:04:07] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1819/E1.csv
+[2026-03-06 18:04:08] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/1920/E1.csv
+[2026-03-06 18:04:09] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2021/E1.csv
+[2026-03-06 18:04:09] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2122/E1.csv
+[2026-03-06 18:04:11] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2223/E1.csv
+[2026-03-06 18:04:12] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2324/E1.csv
+[2026-03-06 18:04:13] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2425/E1.csv
+[2026-03-06 18:04:13] INFO: Downloaded: https://www.football-data.co.uk/mmz4281/2526/E1.csv
+[2026-03-06 18:04:14] WARNING: HTTP error https://www.football-data.co.uk/mmz4281/2627/E1.csv: 404 Client Error: Not Found for url: https://www.football-data.co.uk/mmz4281/2627/E1.csv
+[2026-03-06 18:04:14] INFO: E1: 11459 historical matches loaded
+[2026-03-06 18:07:40] INFO: Model saved: corners/E1 (11459 samples)
+[2026-03-06 18:07:40] INFO: Full backtest E1/corners: 193 matches in last 90 days
+[2026-03-06 18:07:40] INFO: Training model E1/corners on 11266 matches…
+[2026-03-06 18:10:59] INFO: Backtest window: last 90 days — 193 matches
+[2026-03-06 18:11:08] INFO: Backtest complete — E1 corners | bets: 193 | wins: 109 | winrate: 56.5% | ROI: 6.2%
+[2026-03-06 18:14:23] INFO: Model saved: cards/E1 (11459 samples)
+[2026-03-06 19:15:14] INFO: Full backtest E1/cards: 193 matches in last 90 days
+[2026-03-06 19:15:14] INFO: Training model E1/cards on 11266 matches…

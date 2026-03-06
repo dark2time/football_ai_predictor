@@ -1,0 +1,155 @@
+{
+  "version": "2.0.0",
+  "leagues": [
+    {
+      "code": "E0",
+      "name": "England",
+      "league": "Premier League",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "color": "#CC0000",
+      "enabled": true
+    },
+    {
+      "code": "SP1",
+      "name": "Spain",
+      "league": "La Liga",
+      "flag": "🇪🇸",
+      "color": "#AA151B",
+      "enabled": true
+    },
+    {
+      "code": "D1",
+      "name": "Germany",
+      "league": "Bundesliga",
+      "flag": "🇩🇪",
+      "color": "#DD0000",
+      "enabled": true
+    },
+    {
+      "code": "I1",
+      "name": "Italy",
+      "league": "Serie A",
+      "flag": "🇮🇹",
+      "color": "#0066CC",
+      "enabled": true
+    },
+    {
+      "code": "F1",
+      "name": "France",
+      "league": "Ligue 1",
+      "flag": "🇫🇷",
+      "color": "#002395",
+      "enabled": true
+    },
+    {
+      "code": "P1",
+      "name": "Portugal",
+      "league": "Liga I",
+      "flag": "🇵🇹",
+      "color": "#006600",
+      "enabled": true
+    },
+    {
+      "code": "T1",
+      "name": "Turkey",
+      "league": "Süper Lig",
+      "flag": "🇹🇷",
+      "color": "#E30A17",
+      "enabled": true
+    }
+  ],
+  "data_sources": {
+    "historical": "https://www.football-data.co.uk/mmz4281/{season}/{league}.csv",
+    "fixtures": "https://www.football-data.co.uk/fixtures.csv"
+  },
+  "ml_settings": {
+    "backtest_days": 365,
+    "min_matches_for_training": 50,
+    "model_retrain_days": 30,
+    "time_decay_weights": {
+      "0-6_months": 1.0,
+      "6-12_months": 0.7,
+      "1-3_years": 0.4,
+      "3+_years": 0.2
+    }
+  },
+  "plugins": {
+    "corners": {
+      "enabled": true,
+      "priority": 1,
+      "name": "Угловые",
+      "emoji": "⛳",
+      "color": "#00C896",
+      "range": {
+        "min": 6.5,
+        "max": 15.5,
+        "step": 0.5
+      }
+    },
+    "cards": {
+      "enabled": true,
+      "priority": 2,
+      "name": "Жёлтые Карточки",
+      "emoji": "🟨",
+      "color": "#FFD600",
+      "range": {
+        "min": 2.5,
+        "max": 8.5,
+        "step": 0.5
+      }
+    },
+    "goals": {
+      "enabled": true,
+      "priority": 3,
+      "name": "Тотал Голов",
+      "emoji": "⚽",
+      "color": "#4A9EFF",
+      "range": {
+        "min": 0.5,
+        "max": 6.5,
+        "step": 1.0
+      }
+    },
+    "outcome": {
+      "enabled": true,
+      "priority": 4,
+      "name": "Исход П1/X/П2",
+      "emoji": "🏆",
+      "color": "#FF6B6B"
+    }
+  },
+  "bankroll": {
+    "default": 50000,
+    "conservative_percent": 0.02,
+    "aggressive_percent": 0.05,
+    "min_stake": 500,
+    "max_stake_percent": 0.05
+  },
+  "filters": {
+    "min_probability": 0.6,
+    "min_value": 0.01,
+    "show_value_only": false,
+    "red_flags": {
+      "derby": false,
+      "after_european_match": false,
+      "last_round": false
+    }
+  },
+  "auto_update": {
+    "check_on_startup": true,
+    "check_interval_hours": 6,
+    "auto_check_results_time": "12:00"
+  },
+  "ui": {
+    "theme": "dark",
+    "colors": {
+      "background": "#080810",
+      "card": "rgba(255,255,255,0.02)",
+      "border": "rgba(255,255,255,0.06)",
+      "success": "#00C896",
+      "warning": "#FFD600",
+      "error": "#FF6B6B",
+      "info": "#4A9EFF"
+    }
+  }
+}

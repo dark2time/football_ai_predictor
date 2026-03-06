@@ -1,0 +1,103 @@
+{
+  "E0": {
+    "corners": {
+      "roi": 2.5,
+      "winrate": 54.5,
+      "bets": 143
+    },
+    "cards": {
+      "roi": 5.2,
+      "winrate": 55.9,
+      "bets": 143
+    },
+    "goals": {
+      "roi": 4.1,
+      "winrate": 54.5,
+      "bets": 55
+    },
+    "outcome": {
+      "roi": 0.0,
+      "winrate": 0.0,
+      "bets": 0
+    }
+  },
+  "SP1": {
+    "corners": {
+      "roi": -1.8,
+      "winrate": 52.2,
+      "bets": 113
+    },
+    "cards": {
+      "roi": -3.5,
+      "winrate": 51.3,
+      "bets": 113
+    }
+  },
+  "D1": {
+    "corners": {
+      "roi": 4.2,
+      "winrate": 55.4,
+      "bets": 101
+    },
+    "cards": {
+      "roi": -8.8,
+      "winrate": 48.5,
+      "bets": 101
+    }
+  },
+  "I1": {
+    "corners": {
+      "roi": -2.5,
+      "winrate": 51.9,
+      "bets": 135
+    },
+    "cards": {
+      "roi": -27.3,
+      "winrate": 38.7,
+      "bets": 137
+    }
+  },
+  "F1": {
+    "corners": {
+      "roi": -0.5,
+      "winrate": 52.9,
+      "bets": 85
+    },
+    "cards": {
+      "roi": -11.5,
+      "winrate": 47.1,
+      "bets": 85
+    }
+  },
+  "P1": {
+    "corners": {
+      "roi": 4.8,
+      "winrate": 55.8,
+      "bets": 104
+    },
+    "cards": {
+      "roi": -29.5,
+      "winrate": 37.5,
+      "bets": 104
+    }
+  },
+  "T1": {
+    "corners": {
+      "roi": -8.2,
+      "winrate": 48.8,
+      "bets": 86
+    },
+    "cards": {
+      "roi": -23.5,
+      "winrate": 40.7,
+      "bets": 86
+    }
+  },
+  "E1": {
+    "corners": {
+      "roi": 6.2,
+      "winrate": 56.5,
+      "bets": 193
+    }
+  }
+}
